@@ -1,0 +1,90 @@
+//link da font copiado pelo google fonts vem primeiro!(linha2)
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+//seletor universal na linha da linha 4 até a 8
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//na header para definir cabeçalho da pag, marcamos com borda vermelha. 
+header{
+  //background-color:red; //grid vermelho
+  display: flex; //ativar caixa flexivel
+  justify-content: space-around; //trabalha com o eixo x
+  align-items: center;
+  height: 15vh;
+  font-family:"Oswald"; // nome da fonte 
+
+h2{
+  //border:solid red; 
+  font-weight:700;
+  height: 2.5rem;
+  font-family: "oswald";
+
+}  
+
+
+nav {
+    //border: solid green;
+    width: 50%; //largura
+    height: 15vh; //altura
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "oswald";
+  }
+
+  //espaçamento e alinhamento é dentro da UL
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    list-style: none; //estilizar a lista:"nao"
+    align-items: center;
+    }
+
+  li { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+   }
+
+    
+  a { 
+      text-decoration: none;
+      color: #5B5B5B;
+      font-size: 1.25rem;
+      font-weight: 500;
+      
+          
+     .contato {
+      font-size: 1.5rem;
+      border:solid;
+      width: 20vh;
+
+     text-align: center; 
+     } 
+   
+
+  
+    }
+}
+.container_background_image{
+  background-image: url("./imagens/background.png"); //BAMNER
+  height: 80vh; //ALTURA
+  background-repeat: no-repeat; //NÃO REPETIT IMAGEM PARA CABER
+  background-size: cover; //TAMANGO DA TELA
+  h1{
+    color: white;
+    font-family: "Oswald",
+    
+  }
+
+  h2{
+    color:white;
+  }
+  button{
+    background-color: blue;
+  }
+}
