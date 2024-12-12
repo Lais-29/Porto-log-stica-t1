@@ -46,8 +46,9 @@ header a {
 header a .contato {
   font-size: 1.5rem;
   border: solid;
-  width: 20vh;
+  width: 60vh;
   text-align: center;
+  background-color: black;
 }
 
 .container_background_image {
@@ -55,14 +56,107 @@ header a .contato {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: flex-start;
 }
 .container_background_image h1 {
   color: white;
   font-family: "Oswald";
+  text-align: left;
+  font-weight: 700px;
+  height: 2.5rem;
 }
 .container_background_image h2 {
   color: white;
+  font-family: "Oswald";
+  text-align: left;
 }
 .container_background_image button {
   background-color: blue;
+}
+
+.Gestao_portuaria_integrada {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Gestao_portuaria_integrada h3 {
+  color: blue;
+  font-family: "Oswald";
+  text-align: left;
+}
+.Gestao_portuaria_integrada h2 {
+  color: black;
+  font-family: "Roboto";
+  text-align: left;
+  font-size: 36px;
+}
+.Gestao_portuaria_integrada p {
+  display: flex;
+  font-family: "roboto";
+  text-align: left;
+  font-size: 24px;
+}
+.Gestao_portuaria_integrada div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  width: 40%;
+}
+.Gestao_portuaria_integrada img {
+  width: 30%;
+}
+
+.artigos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.artigos p {
+  width: 326px;
+}
+
+.atendimento h2 {
+  color: blue;
+  width: 346px;
+  font-family: "oswald";
+}
+.atendimento h3 {
+  width: 458px;
+  font-family: "oswald";
+}
+
+.atendimento {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.cards figure {
+  width: 24vw;
+}
+.cards h2, .cards h3 {
+  margin-top: 30px;
+}
+
+.divCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+form {
+  height: 54vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */

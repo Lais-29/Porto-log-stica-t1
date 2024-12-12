@@ -61,9 +61,10 @@ nav {
      .contato {
       font-size: 1.5rem;
       border:solid;
-      width: 20vh;
-
+      width: 60vh;
      text-align: center; 
+     background-color: black;
+     
      } 
    
 
@@ -75,16 +76,139 @@ nav {
   height: 80vh; //ALTURA
   background-repeat: no-repeat; //NÃO REPETIT IMAGEM PARA CABER
   background-size: cover; //TAMANGO DA TELA
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: flex-start;
+
+  //porto logistica
   h1{
-    color: white;
-    font-family: "Oswald",
     
+    color: white;
+    font-family: "Oswald";
+    text-align: left;
+    font-weight:700px; //peso da fonte 
+    height: 2.5rem; // altura
+      
   }
 
+  //Soluções integradas para gestão portuária
   h2{
     color:white;
+    font-family: "Oswald";
+    text-align: left;
   }
+
+  //botão - serviços
   button{
-    background-color: blue;
+    background-color: blue; // cor de fundo
+    
   }
 }
+  //sessão
+ .Gestao_portuaria_integrada{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+
+  //titulo gestão portuaria integrada
+  h3{
+  color:blue;
+  font-family: "Oswald";
+  text-align: left; 
+  
+  
+  
+  }
+  
+  //titulo fonte bold
+  h2{
+    color:black;
+    font-family:"Roboto";
+    text-align: left;
+    font-size: 36px;
+    
+
+
+  }
+  //texto 
+  p{
+    display: flex;
+    font-family: "roboto";
+    text-align: left;
+    font-size: 24px;
+  }
+  div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 40%;
+  }
+  img{
+    width: 30%;
+  }
+
+ } 
+ .artigos{
+  display: flex;
+  justify-content: space-evenly;
+  
+  p{
+    width: 326px;    
+  }
+
+ }
+ 
+ .atendimento{
+
+  h2{
+    color:blue;
+    width: 346px;
+    font-family: "oswald";
+  }
+
+  h3{
+    width: 458px;
+    font-family: "oswald";
+  }
+
+
+ }
+
+ .atendimento{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+ }
+
+.cards{
+  display:flex;
+  flex-direction: column;  
+  width: 50vw;
+  figure{
+    width:24vw;
+  }
+  h2,h3{
+    margin-top:30px;
+  }
+
+}
+
+  .divCards{
+    display: flex;
+    flex-wrap:wrap;
+    width:70vw;
+  }
+
+  form{
+    height: 54vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+  }
